@@ -30,5 +30,5 @@ const server = http.createServer((request, response) => {
 server.listen(3123, () => {
   console.log('요청이 오기 전까진 listen, 그저 듣고만 있습니다.');
   console.log('패킷 전송 방식이기 때문에, 전화와 다르게 통화기능은 없습니다.');
-  console.log('하지만 요청은 받아 줍니다. ');
+  console.log('하지만 요청은 받아 줍니다.');
 });
